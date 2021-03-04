@@ -4,6 +4,52 @@
     box-sizing: border-box;
 }
 
-body{
-    font-size: 1.5rem;
+:root{
+    --back_VeryDarkMangeta: hsl(300, 43%, 22%);
+    --back_DarkGrayishMagenta: hsl(303, 10%, 90%);
+    --back_White: hsl(0, 0%, 100%);
+
+    --colorText_VeryDarkMangeta: hsl(300, 43%, 22%);
+    --colorText_LightGrayishMagenta: hsl(300, 24%, 60%);
+    --colorText_SoftPink: hsl(333, 80%, 67%);
+    --colorText_White: hsl(0, 0%, 100%);
 }
+
+body{
+    font-size: 0.938rem;
+    font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+}
+
+#main-proof{
+    background: var(--back_White);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+}
+
+#box-ranking{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.rated-stars{
+    background-color: var(--back_DarkGrayishMagenta);
+}
+
+#box-users-comments{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.users-comments{
+    background: var(--back_VeryDarkMangeta)
+}
+
+
+
+

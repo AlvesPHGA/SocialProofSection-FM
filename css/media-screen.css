@@ -1,0 +1,109 @@
+@media (max-width: 600px){
+    body{
+        font-size: 70%;
+    }
+
+    #main-proof{
+        padding: 80px 0;
+
+        background: url('../images/bg-pattern-top-mobile.svg') left top no-repeat, url('../images/bg-pattern-bottom-mobile.svg') right bottom no-repeat;
+        background-size: 100%, 100%;
+    }
+
+    #box-desc-product{
+        max-width: 300px;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        row-gap: 10px;
+    }
+
+    .desc-product strong{
+        font-size: 1.7rem;
+        color: var(--colorText_VeryDarkMangeta);
+        line-height: 1.75rem;
+    }
+
+    .desc-product p{
+        color: var(--colorText_LightGrayishMagenta);
+    }
+
+    
+
+    .rated-stars{
+        width: 300px;
+        height: 60px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 7px;
+
+        border-radius: 5px;
+    }
+
+    .users-comments{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        padding: 20px 20px;
+        border-radius: 10px;
+    }
+
+    .photo-name-user{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+
+    .photo-user img{
+        width: 50px;
+        border-radius: 100%;
+    }
+
+    .name-status-user{
+        margin-left: 20px;
+        font-size: 0.85rem;
+        line-height: 1.4rem;
+    }
+
+    .name-status-user strong{
+        color: var(--colorText_White);
+    }
+
+    .name-status-user p{
+        color: var(--colorText_SoftPink);
+    }
+
+    .comment-user{
+        text-align: left;
+    }
+
+    .comment-user p{
+        color: var(--colorText_White);
+        line-height: 1.4rem;
+    }
+
+    
+}
+
+@media only screen and (min-width: 600px){
+    
+}
+
+@media only screen and (min-width: 768px){
+
+}
+
+@media only screen and (min-width: 992px){
+
+}
+
+@media only screen and (min-width: 1200px){
+
+}
